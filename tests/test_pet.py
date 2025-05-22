@@ -104,7 +104,7 @@ class TestPet:
                 "status": "sold"
             }
 
-        with allure.step("Отправка запроса на обновление информации о ритомце"):
+        with allure.step("Отправка запроса на обновление информации о питомце"):
             response = requests.put(f"{BASE_URL}/pet", json=payload)
 
         with allure.step("Проверка статуса ответа и обновленных данных питомца"):
