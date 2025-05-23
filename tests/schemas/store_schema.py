@@ -1,6 +1,5 @@
 STORE_SCHEMA = {
-    "type": "object",
-    "properties": {
+      {
         "id": {
             "type": "integer"
         },
