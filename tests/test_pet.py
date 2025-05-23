@@ -135,7 +135,6 @@ class TestPet:
          ("sold", 200),
          ("", 400),
          ("lost", 400)
-
          ]
     )
     def test_get_pets_by_status(self, status, expected_status_code):
